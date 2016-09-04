@@ -1,3 +1,4 @@
+echo "-----&gt; haproxy-1.5.18"
 #!/usr/bin/env bashƒ
 echo "-----&gt; haproxy-1.5.18"
 # change to the the BUILD_DIR ($1)
