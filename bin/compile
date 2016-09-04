@@ -8,5 +8,5 @@ tar -zxvf haproxy-1.6.9.tar.gz
 rm haproxy-1.6.9.tar.gz
 touch haproxy.pid
 cd haproxy-1.6.9
-make TARGET=linux OPTIONS = USE_LIBCRYPT=1 USE_CRYPT_H=1 USE_ZLIB=1 USE_OPENSSL=1 USE_PCRE=1
+make TARGET=linux USE_LIBCRYPT=1 USE_CRYPT_H=1 USE_ZLIB=1 USE_OPENSSL=1 USE_PCRE=1
 
