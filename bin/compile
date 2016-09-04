@@ -1,12 +1,12 @@
-echo "-----&gt; haproxy-1.5.18"
+echo "-----&gt; haproxy-1.6.9"
 #!/usr/bin/env bashƒ
-echo "-----&gt; haproxy-1.5.18"
+echo "-----&gt; haproxy-1.6.9"
 # change to the the BUILD_DIR ($1)
 cd $1
-curl -O http://www.haproxy.org/download/1.5/src/haproxy-1.5.18.tar.gz
-tar -zxvf haproxy-1.5.18.tar.gz
-rm haproxy-1.5.18.tar.gz
+curl -O http://www.haproxy.org/download/1.6/src/haproxy-1.6.9.tar.gz
+tar -zxvf haproxy-1.6.9.tar.gz
+rm haproxy-1.6.9.tar.gz
 touch haproxy.pid
-cd haproxy-1.5.18
+cd haproxy-1.6.9
 make TARGET=linux
 
